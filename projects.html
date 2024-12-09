@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+
+        #project {
+            text-align: center;
+            padding: 50px 20px;
+            background: #f4f4f9;
+        }
+
+        #project h1 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #003566;
+        }
+
+        .project-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .project-item {
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 5px solid #003566;
+        }
+
+        .project-item h3 {
+            font-size: 1.25rem;
+            color: #003566;
+            margin: 15px 0;
+        }
+
+        .project-item p {
+            font-size: 0.95rem;
+            color: #555;
+            padding: 0 15px 15px;
+            line-height: 1.5;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html #about">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="project">
+            <h1>Projects</h1>
+            <div class="project-items">
+                <div class="project-item">
+                    <img src="project1.png" alt="Hardware Project">
+                    <h3>Hardware Project</h3>
+                    <p>A smart power outlet is a device that enables users to control and monitor electrical appliances remotely using a mobile app. It allows for scheduling, energy consumption tracking, and real-time monitoring of voltage and current. With added features like thermal protection, it enhances safety, offering convenience and energy efficiency for homes and businesses alike.</p>
+                </div>
+                <div class="project-item">
+                    <img src="project2.png" alt="Web Development Project">
+                    <h3>Web Development Project</h3>
+                    <p>The YUMYARD burger shop website is a comprehensive platform that allows customers to seamlessly order their favorite burgers online. The website is designed to provide a delightful user experience with its intuitive navigation, appealing design, and robust functionality.</p>
+                </div>
+                <div class="project-item">
+                    <img src="project3.png" alt="Social Impact Project">
+                    <h3>Social Impact Project</h3>
+                    <p>The Sri Pada Clean-Up project was launched with the aim of preserving the natural beauty of Sri Pada by removing polythene and plastic waste from the area.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 HDSDD</p>
+    </footer>
+</body>
+</html>
+
+
